@@ -1,0 +1,80 @@
+.section-3 {
+  text-align: center;
+  background: url('../css/img/section-3-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 147px;
+  padding-bottom: 131px;
+}
+
+.section-3-heading {
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.section-3-heading {
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+}
+
+.section-3-text {
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.section-3-buttons-wraper {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 16px;
+  width: 331px;
+  /* outline: 2px solid red; */
+}
+
+.section-3-button {
+  white-space: nowrap;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  border-radius: 10px;
+  background: #fa4a0c;
+  border: none;
+  padding: 16px 45px;
+  cursor: pointer;
+  box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+}
+
+.section-3-button:nth-of-type(1) {
+  padding: 16px 31px;
+}
+
+.section-3-button:hover {
+  background-color: transparent;
+  outline: 1px solid #fff;
+  transform: perspective(1.5);
+  transition: all 500ms linear;
+}
